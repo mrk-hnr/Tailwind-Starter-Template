@@ -6,7 +6,9 @@ Created a template with guidance from [Claire](https://github.com/Mayanwolfe) to
 
 # Optimization Note:
 As per the [Tailwind Documentation](https://tailwindcss.com/docs/optimizing-for-production), we should add `--minify` in the `"scripts"` > `"css"` under package.json for optimization. Pushed without doing so as to not confuse my future self. <br>
-`"npx tailwindcss -i ./src/input.css -o ./public/css/output.css --watch`
+`"npx tailwindcss -i ./src/input.css -o ./public/css/output.css --minify --watch` <br>
+
+Run with `run npm css`
 
 ## Tech used:
 
